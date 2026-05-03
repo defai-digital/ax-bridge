@@ -1,0 +1,5 @@
+AX Bridge Commercial License
+
+This repository contains public documentation and release artifacts for AX Bridge.
+
+The AX Bridge binary is commercial software. Use requires a valid AX Bridge license. Source code, license verification logic, signing infrastructure, and internal tests are not distributed in this repository.
