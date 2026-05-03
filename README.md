@@ -38,6 +38,7 @@ GitHub Releases may include:
 ```text
 ax-bridge-macos-arm64.tar.gz
 ax-bridge-windows-x64.zip
+ax-bridge-windows-arm64.zip
 SHA256SUMS
 SBOM.cargo-metadata.json
 ```
