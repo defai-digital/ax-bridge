@@ -11,13 +11,20 @@ mkdir -p ~/.local/bin
 mv ax-bridge ~/.local/bin/
 ```
 
-## Linux
+## Windows x64
 
-Use the release asset matching your host:
+Download:
 
 ```text
-ax-bridge-linux-x64.tar.gz
-ax-bridge-linux-arm64.tar.gz
+https://github.com/defai-digital/ax-bridge/releases/latest/download/ax-bridge-windows-x64.zip
+https://github.com/defai-digital/ax-bridge/releases/latest/download/SHA256SUMS
+```
+
+Unzip `ax-bridge-windows-x64.zip`, place `ax-bridge.exe` somewhere on `PATH`, then run:
+
+```powershell
+ax-bridge.exe --json doctor
+ax-bridge.exe --json license status
 ```
 
 ## License

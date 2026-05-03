@@ -12,14 +12,9 @@ case "$platform:$arch" in
   Darwin:arm64)
     asset="ax-bridge-macos-arm64.tar.gz"
     ;;
-  Linux:x86_64)
-    asset="ax-bridge-linux-x64.tar.gz"
-    ;;
-  Linux:aarch64|Linux:arm64)
-    asset="ax-bridge-linux-arm64.tar.gz"
-    ;;
   *)
-    echo "unsupported platform: $platform $arch" >&2
+    echo "unsupported by this shell installer: $platform $arch" >&2
+    echo "download Windows x64 manually from GitHub Releases" >&2
     exit 1
     ;;
 esac

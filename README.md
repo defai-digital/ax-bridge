@@ -6,7 +6,9 @@ This public repository is the release and documentation channel for the commerci
 
 ## Install
 
-Download binaries from GitHub Releases or use:
+Download binaries from GitHub Releases.
+
+For macOS Apple Silicon, you can use:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/defai-digital/ax-bridge/main/scripts/install.sh | sh
@@ -35,8 +37,7 @@ GitHub Releases may include:
 
 ```text
 ax-bridge-macos-arm64.tar.gz
-ax-bridge-linux-x64.tar.gz
-ax-bridge-linux-arm64.tar.gz
+ax-bridge-windows-x64.zip
 SHA256SUMS
 SBOM.cargo-metadata.json
 ```
